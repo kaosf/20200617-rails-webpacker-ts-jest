@@ -1,5 +1,19 @@
 # README
 
+```sh
+rm -rf node_modules
+NODE_ENV=production bin/yarn
+NODE_ENV=production bin/webpack
+```
+
+```sh
+rm -rf node_modules
+bin/yarn
+bin/yarn test
+```
+
+---
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
